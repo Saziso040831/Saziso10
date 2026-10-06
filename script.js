@@ -1,41 +1,26 @@
-// ==========================================================
-// PORTFOLIO — INTERACTIONS
-// ==========================================================
-
 document.addEventListener("DOMContentLoaded", function () {
 
-    /* =====================================================
-       MOBILE MENU
-       ===================================================== */
-    const menuBtn = document.getElementById("menuBtn");
+    /* Mobile menu */
+    const menuBtn  = document.getElementById("menuBtn");
     const navLinks = document.getElementById("navLinks");
 
     if (menuBtn && navLinks) {
-        menuBtn.addEventListener("click", function () {
+        menuBtn.addEventListener("click", () => {
             navLinks.classList.toggle("open");
         });
 
-        // Close menu when a link is clicked
         navLinks.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", function () {
+            link.addEventListener("click", () => {
                 navLinks.classList.remove("open");
             });
         });
     }
 
-
-    /* =====================================================
-       CURRENT YEAR IN FOOTER
-       ===================================================== */
+    /* Footer year */
     const yearEl = document.getElementById("year");
-    if (yearEl) {
-        yearEl.textContent = new Date().getFullYear();
-    }
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-
-    /* =====================================================
-       SMOOTH SCROLL (fallback for older browsers)
-       ===================================================== */
+    /* Smooth scroll */
     document.querySelectorAll('a[href^="#"]').forEach(link => {
         link.addEventListener("click", function (e) {
             const id = this.getAttribute("href");
@@ -49,10 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-
-    /* =====================================================
-       FADE-IN ON SCROLL
-       ===================================================== */
+    /* Fade-in on scroll */
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -60,12 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.target.style.transform = "translateY(0)";
             }
         });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.08 });
 
-    document.querySelectorAll(".section, .project, .skill-card, .contact-card").forEach(el => {
+    document.querySelectorAll(
+        ".section, .project, .skill-card, .contact-card, .edu-card, .testimonial"
+    ).forEach(el => {
         el.style.opacity = "0";
-        el.style.transform = "translateY(20px)";
-        el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+        el.style.transform = "translateY(24px)";
+        el.style.transition = "opacity 0.7s ease, transform 0.7s ease";
         observer.observe(el);
     });
 
