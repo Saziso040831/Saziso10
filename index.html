@@ -3,27 +3,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Bayanda Saziso Ngcobo — Application Developer</title>
-    <meta name="description" content="Portfolio of Bayanda Saziso Ngcobo — Application Developer based in Durban. Projects, skills, and contact." />
+    <meta name="description" content="Portfolio of Bayanda Saziso Ngcobo — Application Developer based in Durban, South Africa." />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <!-- ==========================================
-     NAVIGATION
+     NAVBAR
      ========================================== -->
 <header class="navbar">
     <div class="nav-inner">
         <a href="#home" class="logo">&lt;Bayanda /&gt;</a>
-
         <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
-
         <nav id="navLinks">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -35,49 +32,63 @@
     </div>
 </header>
 
-
 <!-- ==========================================
      HERO
      ========================================== -->
 <section id="home" class="hero">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
     <div class="hero-inner">
-
         <div class="hero-text">
-            <p class="badge">Available for graduate &amp; internship roles</p>
-
-            <h1>
-                Hi, I'm <span class="accent">Bayanda Saziso Ngcobo</span>
-            </h1>
-
-            <h2 class="role">
-                Application Developer &amp; ICT Student
-            </h2>
-
+            <p class="badge"><span class="pulse-dot"></span> Available for graduate &amp; internship roles</p>
+            <h1>Hi, I'm <span class="accent">Bayanda Saziso Ngcobo</span></h1>
+            <h2 class="role">Application Developer &amp; ICT Student</h2>
             <p class="pitch">
-                I build practical web and mobile applications with
-                Python, Flask, C#, and Flutter. Currently completing my
-                Advanced Diploma in ICT at Durban University of Technology.
+                I build practical web and mobile applications with Python, Flask, C#, and Flutter. Currently completing my Advanced Diploma in ICT at Durban University of Technology.
             </p>
 
             <div class="hero-actions">
-                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#projects" class="btn primary">View My Work →</a>
                 <a href="images/Bayanda_Ngcobo_CV.pdf" class="btn" download>Download CV</a>
             </div>
 
             <div class="socials">
-                <a href="https://github.com/Saziso040831" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://linkedin.com/in/saziso-ngcobo-b6aa35297" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="mailto:bayandasaziso6@gmail.com">Email</a>
+                <a href="https://github.com/Saziso040831" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.7-2.8 5.7-5.5 6 .4.4.8 1 .8 2v2.9c0 .3.2.7.8.6 4.8-1.6 8.2-6.1 8.2-11.4C24 5.9 18.6.5 12 .5z"/></svg>
+                    GitHub
+                </a>
+                <a href="https://linkedin.com/in/saziso-ngcobo-b6aa35297" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3v9zm-1.5-10.3a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5zM19 19h-3v-4.7c0-1.1-.7-1.8-1.6-1.8-.9 0-1.4.6-1.4 1.8V19h-3v-9h2.9v1.3h.1c.4-.8 1.4-1.5 2.9-1.5 2 0 3.1 1.4 3.1 3.8V19z"/></svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:bayandasaziso6@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                    Email
+                </a>
             </div>
         </div>
 
-        <div class="hero-image no-image">
-            <span>BS</span>
+        <div class="hero-card">
+            <div class="hero-card-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="hero-card-name">developer.js</span>
+            </div>
+            <div class="hero-card-inner">
+                <div class="code-line"><span class="code-num">01</span><span class="code-key">const</span> <span class="code-var">developer</span> <span class="code-op">=</span> <span class="code-brace">{</span></div>
+                <div class="code-line"><span class="code-num">02</span>  <span class="code-prop">name</span><span class="code-op">:</span> <span class="code-str">"Bayanda Ngcobo"</span><span class="code-op">,</span></div>
+                <div class="code-line"><span class="code-num">03</span>  <span class="code-prop">role</span><span class="code-op">:</span> <span class="code-str">"App Developer"</span><span class="code-op">,</span></div>
+                <div class="code-line"><span class="code-num">04</span>  <span class="code-prop">languages</span><span class="code-op">:</span> <span class="code-brace">[</span><span class="code-str">"C#"</span><span class="code-op">,</span> <span class="code-str">"Python"</span><span class="code-op">,</span> <span class="code-str">"Dart"</span><span class="code-brace">]</span><span class="code-op">,</span></div>
+                <div class="code-line"><span class="code-num">05</span>  <span class="code-prop">stack</span><span class="code-op">:</span> <span class="code-brace">[</span><span class="code-str">"Flask"</span><span class="code-op">,</span> <span class="code-str">"Flutter"</span><span class="code-op">,</span> <span class="code-str">"MySQL"</span><span class="code-brace">]</span><span class="code-op">,</span></div>
+                <div class="code-line"><span class="code-num">06</span>  <span class="code-prop">location</span><span class="code-op">:</span> <span class="code-str">"Durban, ZA"</span><span class="code-op">,</span></div>
+                <div class="code-line"><span class="code-num">07</span>  <span class="code-prop">available</span><span class="code-op">:</span> <span class="code-bool">true</span></div>
+                <div class="code-line"><span class="code-num">08</span><span class="code-brace">}</span><span class="code-op">;</span></div>
+            </div>
         </div>
-
     </div>
 </section>
-
 
 <!-- ==========================================
      ABOUT
@@ -85,64 +96,33 @@
 <section id="about" class="section">
     <div class="container">
         <h2 class="section-title">About Me</h2>
+        <p class="section-sub">A quick introduction to who I am and what I do.</p>
 
         <div class="about-grid">
             <div class="about-text">
-                <p>
-                    I'm an <strong>Advanced Diploma in ICT</strong> student at
-                    <strong>Durban University of Technology</strong>, expected to
-                    complete in <strong>2026</strong>. I have hands-on experience
-                    building real applications with C#, Flutter, Python, and web
-                    technologies through academic and personal projects.
-                </p>
-                <p>
-                    My focus is on <strong>application development</strong> —
-                    from database-driven web apps to cross-platform mobile apps.
-                    I enjoy the full journey: designing the UI, building the
-                    backend, connecting the database, and shipping something
-                    people can actually use.
-                </p>
-                <p>
-                    I'm currently looking for a <strong>graduate or internship
-                    opportunity</strong> where I can apply my software development
-                    skills and grow within a collaborative team.
-                </p>
+                <p>I'm an <strong>Advanced Diploma in ICT</strong> student at <strong>Durban University of Technology</strong>, expected to complete in <strong>2026</strong>. I have hands-on experience building real applications with C#, Flutter, Python, and web technologies through academic and personal projects.</p>
+                <p>My focus is on <strong>application development</strong> — from database-driven web apps to cross-platform mobile apps. I enjoy the full journey: designing the UI, building the backend, connecting the database, and shipping something people can actually use.</p>
+                <p>I'm currently looking for a <strong>graduate or internship opportunity</strong> where I can apply my software development skills and grow within a collaborative team.</p>
 
                 <ul class="quick-facts">
                     <li><strong>📍 Location:</strong> Durban, South Africa</li>
                     <li><strong>🎓 Studying:</strong> Advanced Diploma in ICT (NQF 7)</li>
                     <li><strong>💻 Focus:</strong> Application &amp; Full-Stack Development</li>
-                    <li><strong>🌱 Languages:</strong> isiZulu · English</li>
+                    <li><strong>🗣️ Languages:</strong> isiZulu · English</li>
                 </ul>
             </div>
 
             <div class="about-card">
                 <h3>Quick Overview</h3>
-                <div class="fact-row">
-                    <span>Experience</span>
-                    <strong>Customer Service + Academic</strong>
-                </div>
-                <div class="fact-row">
-                    <span>Projects Shipped</span>
-                    <strong>2+</strong>
-                </div>
-                <div class="fact-row">
-                    <span>Main Languages</span>
-                    <strong>C# · Python · Dart</strong>
-                </div>
-                <div class="fact-row">
-                    <span>Tools</span>
-                    <strong>Git · VS Code · Android Studio</strong>
-                </div>
-                <div class="fact-row">
-                    <span>Graduating</span>
-                    <strong>2026</strong>
-                </div>
+                <div class="fact-row"><span>Experience</span><strong>Customer Service + Academic</strong></div>
+                <div class="fact-row"><span>Projects</span><strong>3+</strong></div>
+                <div class="fact-row"><span>Main Languages</span><strong>C# · Python · Dart</strong></div>
+                <div class="fact-row"><span>Tools</span><strong>Git · VS Code · Android Studio</strong></div>
+                <div class="fact-row"><span>Graduating</span><strong>2026</strong></div>
             </div>
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
      SKILLS
@@ -153,72 +133,39 @@
         <p class="section-sub">Tools, languages and technologies I work with.</p>
 
         <div class="skills-grid">
-
             <div class="skill-card">
+                <div class="skill-icon">🌐</div>
                 <h3>Web Development</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Python</li>
-                    <li>Flask</li>
-                    <li>MySQL</li>
-                </ul>
+                <ul><li>HTML5</li><li>CSS3</li><li>Python</li><li>Flask</li><li>MySQL</li></ul>
             </div>
-
             <div class="skill-card">
-                <h3>Mobile Development</h3>
-                <ul>
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                    <li>SQLite</li>
-                    <li>Android Studio</li>
-                </ul>
+                <div class="skill-icon">📱</div>
+                <h3>Mobile</h3>
+                <ul><li>Flutter</li><li>Dart</li><li>SQLite</li><li>Android Studio</li></ul>
             </div>
-
             <div class="skill-card">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>C#</li>
-                    <li>Python</li>
-                    <li>Dart</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                </ul>
+                <div class="skill-icon">⌨️</div>
+                <h3>Languages</h3>
+                <ul><li>C#</li><li>Python</li><li>Dart</li><li>C++</li><li>Java</li></ul>
             </div>
-
             <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
                 <h3>Databases</h3>
-                <ul>
-                    <li>MySQL</li>
-                    <li>SQLite</li>
-                    <li>Basic Database Design</li>
-                </ul>
+                <ul><li>MySQL</li><li>SQLite</li><li>Database Design</li></ul>
             </div>
-
             <div class="skill-card">
+                <div class="skill-icon">🛠️</div>
                 <h3>Tools</h3>
-                <ul>
-                    <li>Visual Studio</li>
-                    <li>VS Code</li>
-                    <li>Git &amp; GitHub</li>
-                    <li>Android Studio</li>
-                </ul>
+                <ul><li>Visual Studio</li><li>VS Code</li><li>Git &amp; GitHub</li><li>Android Studio</li></ul>
             </div>
-
             <div class="skill-card">
+                <div class="skill-icon">💡</div>
                 <h3>Soft Skills</h3>
-                <ul>
-                    <li>Problem Solving</li>
-                    <li>Adaptability</li>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                </ul>
+                <ul><li>Problem Solving</li><li>Adaptability</li><li>Communication</li><li>Teamwork</li></ul>
             </div>
-
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
      PROJECTS
@@ -226,124 +173,70 @@
 <section id="projects" class="section">
     <div class="container">
         <h2 class="section-title">Projects</h2>
-        <p class="section-sub">Things I've built.</p>
+        <p class="section-sub">Real applications I've designed and built.</p>
 
-        <!-- FEATURED: Lost & Found -->
+        <!-- SmartShop AI -->
         <article class="project featured">
-
-            <div class="project-image">
-                <img src="images/lost-and-found.png" alt="Lost and Found web application" />
-            </div>
-
-            <div class="project-info">
-
-                <p class="project-tag">Web Application</p>
-
-                <h3>Lost &amp; Found</h3>
-
-                <p class="project-desc">
-                    A web application where users can report lost items and
-                    browse found items posted by others. Built with a Flask
-                    backend, an HTML/CSS front-end, and a MySQL database to
-                    store reports, images, and user details.
-                </p>
-
-                <ul class="project-tech">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Python</li>
-                    <li>Flask</li>
-                    <li>MySQL</li>
-                </ul>
-
-                <div class="project-links">
-                    <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="btn primary">View on GitHub</a>
+            <div class="project-image project-image--smartshop">
+                <div class="project-visual">
+                    <div class="pv-icon">🛒</div>
+                    <div class="pv-title">SmartShop AI</div>
+                    <div class="pv-sub">Live price comparison</div>
                 </div>
-
             </div>
-
-        </article>
-
-        <!-- FEATURED: Parking Finder -->
-        <article class="project featured">
-
-            <div class="project-image">
-                <img src="images/parking-finder.png" alt="Parking Finder mobile app" />
-            </div>
-
             <div class="project-info">
-
-                <p class="project-tag">Mobile Application</p>
-
-                <h3>Parking Finder</h3>
-
-                <p class="project-desc">
-                    A cross-platform mobile app built with Flutter that helps
-                    users find parking spots nearby. Uses SQLite for local
-                    storage of saved spots and search history.
-                </p>
-
-                <ul class="project-tech">
-                    <li>Flutter</li>
-                    <li>Dart</li>
-                    <li>SQLite</li>
-                    <li>Android Studio</li>
-                </ul>
-
-                <div class="project-links">
-                    <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="btn primary">View on GitHub</a>
-                </div>
-
-            </div>
-
-        </article>
-
-        <!-- OTHER PROJECTS -->
-        <div class="projects-grid">
-
-            <article class="project-card">
+                <p class="project-tag">Featured · Live App</p>
                 <h3>SmartShop AI</h3>
-                <p>Grocery price-comparison web app with budget planner, AI assistant, and store locator. Deployed live on Railway.</p>
-                <ul class="project-tech">
-                    <li>Flask</li>
-                    <li>SQLAlchemy</li>
-                    <li>REST API</li>
-                </ul>
+                <p class="project-desc">A live grocery price-comparison app that connects to a real grocery API, compares prices across Shoprite, Pick n Pay, SPAR, Checkers and Boxer, and recommends the cheapest store for a shopping list. Includes a budget planner, an AI assistant, loyalty-card storage, and an interactive map of nearby supermarkets.</p>
+                <ul class="project-tech"><li>Python</li><li>Flask</li><li>SQLAlchemy</li><li>REST API</li><li>Leaflet</li><li>Railway</li></ul>
                 <div class="project-links">
-                    <a href="https://github.com/Saziso040831" class="link">View on GitHub →</a>
+                    <a href="https://smartshopper-production-0fd7.up.railway.app/student/dashboard" target="_blank" rel="noopener" class="btn primary">Live Demo →</a>
+                    <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="btn">Source Code</a>
                 </div>
-            </article>
+            </div>
+        </article>
 
-            <article class="project-card">
-                <h3>Cybersecurity Essentials</h3>
-                <p>Completed Cisco Networking Academy certification covering network security, cryptography, and threat protection.</p>
-                <ul class="project-tech">
-                    <li>Security</li>
-                    <li>Networking</li>
-                </ul>
+        <!-- Lost & Found -->
+        <article class="project featured">
+            <div class="project-image project-image--lostfound">
+                <div class="project-visual">
+                    <div class="pv-icon">🔍</div>
+                    <div class="pv-title">Lost &amp; Found</div>
+                    <div class="pv-sub">Web Application</div>
+                </div>
+            </div>
+            <div class="project-info">
+                <p class="project-tag">Web Application</p>
+                <h3>Lost &amp; Found</h3>
+                <p class="project-desc">A web application where users can report lost items and browse found items posted by others. Built with a Flask backend, an HTML/CSS front-end, and a MySQL database for storing reports, images, and user details.</p>
+                <ul class="project-tech"><li>HTML</li><li>CSS</li><li>Python</li><li>Flask</li><li>MySQL</li></ul>
                 <div class="project-links">
-                    <a href="#" class="link">Certificate →</a>
+                    <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="btn primary">View on GitHub</a>
                 </div>
-            </article>
+            </div>
+        </article>
 
-            <article class="project-card">
-                <h3>Full-Stack Development</h3>
-                <p>Completed a full-stack development certification covering frontend, backend, and database fundamentals.</p>
-                <ul class="project-tech">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Backend</li>
-                </ul>
+        <!-- Parking Finder -->
+        <article class="project featured">
+            <div class="project-image project-image--parking">
+                <div class="project-visual">
+                    <div class="pv-icon">🅿️</div>
+                    <div class="pv-title">Parking Finder</div>
+                    <div class="pv-sub">Mobile App</div>
+                </div>
+            </div>
+            <div class="project-info">
+                <p class="project-tag">Mobile Application</p>
+                <h3>Parking Finder</h3>
+                <p class="project-desc">A cross-platform mobile app built with Flutter that helps users find parking spots nearby. Uses SQLite for local storage of saved spots and search history, with a clean Android-native UI.</p>
+                <ul class="project-tech"><li>Flutter</li><li>Dart</li><li>SQLite</li><li>Android Studio</li></ul>
                 <div class="project-links">
-                    <a href="#" class="link">Certificate →</a>
+                    <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="btn primary">View on GitHub</a>
                 </div>
-            </article>
-
-        </div>
-
+            </div>
+        </article>
     </div>
 </section>
-
 
 <!-- ==========================================
      EXPERIENCE
@@ -353,38 +246,25 @@
         <h2 class="section-title">Experience</h2>
 
         <div class="timeline">
-
             <div class="timeline-item">
                 <div class="timeline-date">Nov 2025 — Feb 2026</div>
                 <div class="timeline-content">
                     <h3>Customer Service Representative</h3>
                     <p class="timeline-org">A5</p>
-                    <p>
-                        Assisted customers and resolved queries in a fast-paced
-                        environment. Developed strong communication,
-                        problem-solving, and adaptability skills while working
-                        effectively in a team to meet daily targets.
-                    </p>
+                    <p>Assisted customers and resolved queries in a fast-paced environment. Developed strong communication, problem-solving, and adaptability skills while working effectively in a team to meet daily targets.</p>
                 </div>
             </div>
-
             <div class="timeline-item">
                 <div class="timeline-date">2023 — Present</div>
                 <div class="timeline-content">
                     <h3>Academic Projects</h3>
                     <p class="timeline-org">Durban University of Technology</p>
-                    <p>
-                        Built multiple applications as part of my diploma and
-                        advanced diploma studies — including a Lost &amp; Found
-                        web app and a Parking Finder mobile app.
-                    </p>
+                    <p>Built multiple applications as part of my diploma and advanced diploma studies — including a Lost &amp; Found web app and a Parking Finder mobile app.</p>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
      EDUCATION
@@ -394,69 +274,51 @@
         <h2 class="section-title">Education</h2>
 
         <div class="edu-grid">
-
             <div class="edu-card">
                 <div class="edu-icon">🎓</div>
                 <h3>Advanced Diploma in ICT (NQF 7)</h3>
                 <p class="edu-school">Durban University of Technology</p>
                 <p class="edu-year">Present — Expected 2026</p>
-                <p>Currently completing my Advanced Diploma, focusing on advanced software development and application design.</p>
+                <p>Advanced software development and application design.</p>
             </div>
-
             <div class="edu-card">
                 <div class="edu-icon">🎓</div>
                 <h3>Diploma in ICT: Application Development (NQF 6)</h3>
                 <p class="edu-school">Durban University of Technology</p>
                 <p class="edu-year">2023 — 2025</p>
-                <p>Completed a Diploma focused on application development, programming fundamentals, and databases.</p>
+                <p>Application development, programming fundamentals, and databases.</p>
             </div>
-
             <div class="edu-card">
                 <div class="edu-icon">📜</div>
                 <h3>Matric</h3>
                 <p class="edu-school">KwaNgosa Secondary School</p>
                 <p class="edu-year">2021</p>
             </div>
-
             <div class="edu-card">
                 <div class="edu-icon">🏅</div>
                 <h3>Certifications</h3>
-                <p class="edu-school">Online / Microsoft</p>
-                <p class="edu-year">Ongoing</p>
-                <ul>
-                    <li>Cybersecurity Essentials</li>
-                    <li>Microsoft Copilot</li>
-                    <li>Full-Stack Development</li>
-                </ul>
+                <p class="edu-school">Cisco · Microsoft</p>
+                <p class="edu-year">Completed</p>
+                <ul><li>Cybersecurity Essentials</li><li>Microsoft Copilot</li><li>Full-Stack Development</li></ul>
             </div>
-
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
-     TESTIMONIALS / REFERENCE
+     REFERENCE
      ========================================== -->
-<section id="testimonials" class="section alt">
+<section id="reference" class="section alt">
     <div class="container">
         <h2 class="section-title">Reference</h2>
-
         <div class="testimonials-grid">
-
             <div class="testimonial">
-                <p class="quote">
-                    "Bayanda worked effectively in our team and consistently
-                    showed strong problem-solving and communication skills
-                    while serving customers."
-                </p>
-                <p class="author">— Goodness Khubisa, Manager at A5</p>
+                <p class="quote">"Bayanda worked effectively in our team and consistently showed strong problem-solving and communication skills while serving customers."</p>
+                <p class="author">— Goodness Khubisa · Manager at A5</p>
             </div>
-
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
      CONTACT
@@ -464,50 +326,41 @@
 <section id="contact" class="section">
     <div class="container">
         <h2 class="section-title">Get In Touch</h2>
-        <p class="section-sub">
-            Open to graduate, internship, and junior developer opportunities.
-        </p>
+        <p class="section-sub">Open to graduate, internship, and junior developer opportunities.</p>
 
         <div class="contact-grid">
-
             <a href="mailto:bayandasaziso6@gmail.com" class="contact-card">
                 <div class="contact-icon">✉️</div>
                 <h3>Email</h3>
                 <p>bayandasaziso6@gmail.com</p>
             </a>
-
             <a href="tel:+27714653500" class="contact-card">
                 <div class="contact-icon">📞</div>
                 <h3>Phone</h3>
                 <p>071 465 3500</p>
             </a>
-
             <a href="https://github.com/Saziso040831" target="_blank" rel="noopener" class="contact-card">
                 <div class="contact-icon">💻</div>
                 <h3>GitHub</h3>
                 <p>@Saziso040831</p>
             </a>
-
             <a href="https://linkedin.com/in/saziso-ngcobo-b6aa35297" target="_blank" rel="noopener" class="contact-card">
                 <div class="contact-icon">🔗</div>
                 <h3>LinkedIn</h3>
                 <p>saziso-ngcobo-b6aa35297</p>
             </a>
-
         </div>
     </div>
 </section>
-
 
 <!-- ==========================================
      FOOTER
      ========================================== -->
 <footer class="footer">
     <div class="container">
-        <p>© <span id="year"></span> Bayanda Saziso Ngcobo. Built with HTML, CSS &amp; JavaScript.</p>
+        <p>© <span id="year"></span> Bayanda Saziso Ngcobo · Built with HTML, CSS &amp; JavaScript</p>
     </div>
 </footer>
-
 
 <script src="script.js"></script>
 </body>
